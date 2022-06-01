@@ -1,1 +1,13 @@
+{
+  "id": 1,
+	"Component": "CMS PAGES",
+	"Type": "functional",
+	"Summary": "Cannot add to the cart product in stock, getting  'Product that you are trying to add is not available' message.",
+	"URL": "https://qatest-dev.indvp.com/granada-mugs-assorted-set-of-three",
+	"STR": "1) Go to the 'KITCHEN & DINING' category on the home page, pick 'Mugs & Cups'. 2) Pick 'Granada Mugs - Assorted Set of Three' product, which is in stock. 3) Click the 'Add to busket' button. 4) Get 'Product that you are trying to add is not available' message, product isn't added to the cart.",
+	"Expected_result": "Product is successfully added to the cart, getting 'Product added to cart!' message. The indicator on the mini cart matches the number of added products.",
+  "Actual_result": "Product isn't added to the cart, getting 'Product that you are trying to add is not available' message.",
+	"Screenshot": "https://www.screencast.com/t/zRZOq54Wodz",
+	"Video": "https://www.screencast.com/t/Sxe8ZwXyRl9"
+}
 
